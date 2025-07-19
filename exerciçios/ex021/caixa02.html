@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.377);
+
+        }
+        nav> a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color:white ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384)
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bolo{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50% ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="">menu</a>
+            <a href="">salva</a>
+            <a href="">cores</a>
+            <a href="">foto</a>
+            <a href="">links</a>
+        </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+
+       </section>
+       <section id="noticias">
+         <article>
+            <h2>noticias sobre o brasil</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo porro autem minus dolorem exercitationem distinctio maxime enim saepe culpa ipsum officia, dese
+            runt eaque commodi nostrum nesciunt cum nobis repellat.</p>
+            <aside>
+                <p>artigo escrito por josé da silva</p>
+            </aside>
+         </article>
+       </section>
+
+    </main>
+    <footer>
+          <p>desnvolvido por Jonatas Rodrigues</p>
+    </footer>
+    <div id="bolo"></div>
+
+</body>
+</html>

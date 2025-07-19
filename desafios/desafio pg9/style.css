@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+.foto-1{
+   position: absolute; 
+   left: 50%;
+
+}
+.foto-2{
+    position: absolute;
+    left: 36%;
+    top: 8%;
+}
+.foto-3{
+   position:absolute; 
+   left: 50%;
+   top: 24%;
+}
+.foto-4{
+    position: absolute;
+    left: 36%;
+    top: 24%;
+}
+
+
+
+img{
+    width: 250px;
+
+}
